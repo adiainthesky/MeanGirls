@@ -1,3 +1,46 @@
 #Janice, #Regina, #Kevin {
   display: none;
 }
+
+body {
+  background-color: pink;
+  padding: 5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 3.5em;
+  border: 5x solid black;
+  color: hotpink;
+  text-shadow: 2px 3px 0 black;
+}
+
+h3 {
+  border: 5x solid black;
+  color: rgb(53, 41, 47);
+  text-shadow: 1px 1px 0 black;
+}
+
+img {
+ max-width: 80%;
+ max-heigth: auto;
+ display: block;
+ align-self: left;
+ margin: 30px; 
+ border: groove rgb(34, 1, 24) 10px;
+ }
+
+ button {
+   color: rgb(73, 17, 61);
+   background-color: rgb(228, 200, 214);
+   font-size: 1.2em;
+   padding-right: 10px;
+   padding-left: 10px;
+   border: solid px black
+   border: 2x solid black;
+  color: hotpink;
+  text-shadow: .5px .5px 0 black;
+ }
