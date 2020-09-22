@@ -9,21 +9,27 @@ $(document).ready(function() {
  
 
    if (answer1 === "1" && (answer2 ==="1" || answer3 === "1" || answer4 ==="1")) {
-     $("#Janice").show();
+    $("#Regina, #Kevin").hide();
+    $("#Janice").show();
    } else if (answer2 === "1" && (answer3 ==="1" || answer4 ==="1")){
-     $("#Janice").show();
+    $("#Regina, #Kevin").hide();
+    $("#Janice").show();
    } else if (answer3 === "1" && (answer4 ==="1")){
-     $("#Janice").show();
+    $("#Regina, #Kevin").hide();
+    $("#Janice").show();
    } else if (answer1 === "2" && (answer2 === "2" || answer3 ==="2" || answer4 === "2")) {
-     $("#Regina").show();
+    $("#Janice, #Kevin").hide(); 
+    $("#Regina").show();
    } else if (answer2 === "2" && (answer3 ==="2" || answer4 ==="2")){
-     $("#Regina").show();
+    $("#Janice, #Kevin").hide(); 
+    $("#Regina").show();
    } else if (answer3 === "2" && (answer4 ==="2")){
-     $("#Regina").show();
+    $("#Janice, #Kevin").hide(); 
+    $("#Regina").show();
    } else {
-     $("#Kevin").show();
+    $("#Janice, #Regina").hide(); 
+    $("#Kevin").show();
    }
-
   });
 });
 
